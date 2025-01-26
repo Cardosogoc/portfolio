@@ -161,3 +161,41 @@ li{
     }
     
 }
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 5%;
+    }
+
+    .cabecalho__menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+        gap: 40px;
+    }
+
+    .apresentacao__conteudo {
+        width: 100%;
+    }
+
+    .apresentacao__links {
+        gap: 24px; 
+    }
+
+    .apresentacao__links__link {
+        width: 100%; 
+        font-size: 1.25rem; 
+        padding: 16px 0; 
+        gap: 12px; 
+    }
+
+    .icon {
+        width: 20px; 
+        height: 20px;
+    }
+}
