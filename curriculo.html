@@ -1,54 +1,156 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sobre mim</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a href="index.html" class="cabecalho__menu__link">Home</a>
-            <a href="about.html" class="cabecalho__menu__link">Sobre mim</a>
-            <a href="curriculo.html" class="cabecalho__menu__link">Currículo</a>
-        </nav>
+      <nav class="cabecalho__menu">
+        <a href="index.html" class="cabecalho__menu__link">Home</a>
+        <a href="about.html" class="cabecalho__menu__link">Sobre mim</a>
+        <a href="curriculo.html" class="cabecalho__menu__link">Currículo</a>
+      </nav>
     </header>
     <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo"><strong class="destaqueTitulo">Currículo</strong></h1>
-            <p class="apresentacao__conteudo__texto"> Olá! Sou Gabriel Cardoso, desenvolvedor Front-end com especialidade em JavaScript, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+      <section class="apresentacao__conteudo">
+        <h1 class="apresentacao__conteudo__titulo">
+          <strong class="destaqueTitulo">Currículo</strong>
+        </h1>
+        <p class="apresentacao__conteudo__texto">
+          Olá! Sou Gabriel Cardoso, desenvolvedor Front-end com especialidade em
+          JavaScript, HTML e CSS. Ajudo pequenos negócios e designers a
+          colocarem em prática boas ideias. Vamos conversar?
+        </p>
 
-            <h1 class="apresentacao__conteudo__titulo"><strong class="destaqueTitulo">Experiências</strong></h1>
-            <ul class="apresentacao__conteudo__texto">
-                <li>AL Dist. de Medicamentos (Fev 2017 - Jul 2018) <br> Auxiliar Logístico</li>
-                <li>Força Aérea Brasileira (Ago 2018 - Jul 2026) <br>
-                Auxiliar Administrativo</li>
-                <li>Força Aérea Brasileira (Estágio) (Out 2024 - Dez 2024) Técnico em Informática</li>
-            </ul>
-            
-            <h1 class="apresentacao__conteudo__titulo"><strong class="destaqueTitulo">Estudos</strong></h1>
-            <ul class="apresentacao__conteudo__texto">
-                <li>Técnico em Informática - Colégio Politécnico de Santa Maria</li>
-                <li>Curso Lógica de Programação JS - Alura Cursos <a href="https://cursos.alura.com.br/certificate/58e1314e-0d4d-4de3-ab2a-8f2fbd3a342a?lang">Certificado</a></li>
-                <li>Curso Git e GitHub - Alura Cursos <a href="https://cursos.alura.com.br/certificate/d290dd86-5977-4eb0-9db1-3f81af73f24b?lang">Certificado</a></li>
-                <li>Curso HTML5 e CSS3 - Alura Cursos <a href="linkdocertificado">Certificado</a></li>
-                <li>Desenvolvimento Pessoal - Alura Cursos <a href="https://cursos.alura.com.br/degree/certificate/cba5ff9d-f84b-4209-9653-9595831bdad8?lang">Certificado</a></li>
-            </ul>
+        <h1 class="apresentacao__conteudo__titulo">
+          <strong class="destaqueTitulo">Experiências</strong>
+        </h1>
+        <ul class="apresentacao__conteudo__texto">
+          <li>
+            AL Dist. de Medicamentos (Fev 2017 - Jul 2018) <br />
+            Auxiliar Logístico
+          </li>
+          <li>
+            Força Aérea Brasileira (Ago 2018 - Jul 2026) <br />
+            Auxiliar Administrativo
+          </li>
+          <li>
+            Força Aérea Brasileira (Estágio) (Out 2024 - Dez 2024) Técnico em
+            Informática
+          </li>
+        </ul>
 
-            <h1 class="apresentacao__conteudo__titulo"><strong class="destaqueTitulo">Projetos Desenvolvidos</strong></h1>
-            <ul class="apresentacao__conteudo__texto">
-                <li><a href="https://github.com/Cardosogoc/clone-spotify-imersao-front-end">Clone Spotify</a> - Imersão Front-end Alura</li>
-                <li><a href="https://github.com/Cardosogoc/projeto_Google_Glass_Curso_HTML">Site Google Glass</a> - Curso em Vídeo</li>
-                <li><a href="https://github.com/Cardosogoc/numero-secreto-one">Número Secreto</a> - Oracle Next Education</li>
-            </ul>
-        </section>
-        
-            <img src="/img/gabrielcardoso.jpg" alt="Foto do Gabriel Cardoso" class="img_gabriel">
-        
+        <h1 class="apresentacao__conteudo__titulo">
+          <strong class="destaqueTitulo">Estudos</strong>
+        </h1>
+        <ul class="apresentacao__conteudo__texto">
+          <li>Técnico em Informática - Colégio Politécnico de Santa Maria</li>
+          <li>
+            Curso Lógica de Programação JS - Alura Cursos -
+            <button href="#" class="open-modal" data-modal="cert1">
+              Visualizar
+            </button>
+            -
+            <a
+              href="https://cursos.alura.com.br/certificate/58e1314e-0d4d-4de3-ab2a-8f2fbd3a342a?lang"
+              target="_blank"
+              >Validação</a
+            >
+          </li>
+          <li>
+            Curso Git e GitHub - ONE -
+            <button href="#" class="open-modal" data-modal="cert2">
+              Visualizar
+            </button>
+            -
+            <a
+              href="https://cursos.alura.com.br/certificate/d290dd86-5977-4eb0-9db1-3f81af73f24b?lang"
+              target="_blank"
+              >Validação</a
+            >
+          </li>
+          <li>
+            Iniciante em Programação - ONE
+            <button href="#" class="open-modal" data-modal="cert3">
+              Visualizar
+            </button>
+            -
+            <a
+              href="https://cursos.alura.com.br/user/gabrieloc6/degree-logica-de-programacao-grupo8-one-855206/certificate"
+              target="_blank"
+              >Validação</a
+            >
+          </li>
+          <li>
+            Desenvolvimento Pessoal - ONE -
+            <button href="#" class="open-modal" data-modal="cert4">
+              Visualizar
+            </button>
+            -
+            <a
+              href="https://cursos.alura.com.br/degree/certificate/cba5ff9d-f84b-4209-9653-9595831bdad8?lang"
+              target="_blank"
+              >Validação</a
+            >
+          </li>
+        </ul>
+        <div class="dialog">
+          <dialog id="cert1">
+            <img src="/img/certificados/cert_log.jpg" alt="certificado" />
+            <button class="close-modal" data-modal="cert1">x</button>
+          </dialog>
+          <dialog id="cert2">
+            <img src="/img/certificados/cert_git.jpg" alt="certificado" />
+            <button class="close-modal" data-modal="cert2">x</button>
+          </dialog>
+          <dialog id="cert3">
+            <img src="/img/certificados/cert_inicprog.jpg" alt="certificado" />
+            <button class="close-modal" data-modal="cert3">x</button>
+          </dialog>
+          <dialog id="cert4">
+            <img src="/img/certificados/cert_desenv.jpg" alt="certificado" />
+            <button class="close-modal" data-modal="cert4">x</button>
+          </dialog>
+        </div>
+        <h1 class="apresentacao__conteudo__titulo">
+          <strong class="destaqueTitulo">Projetos Desenvolvidos</strong>
+        </h1>
+        <ul class="apresentacao__conteudo__texto">
+          <li>
+            <a
+              href="https://github.com/Cardosogoc/clone-spotify-imersao-front-end"
+              >Clone Spotify</a
+            >
+            - Imersão Front-end Alura
+          </li>
+          <li>
+            <a
+              href="https://github.com/Cardosogoc/projeto_Google_Glass_Curso_HTML"
+              >Site Google Glass</a
+            >
+            - Curso em Vídeo
+          </li>
+          <li>
+            <a href="https://github.com/Cardosogoc/numero-secreto-one"
+              >Número Secreto</a
+            >
+            - Oracle Next Education
+          </li>
+        </ul>
+      </section>
+
+      <img
+        src="/img/gabrielcardoso.jpg"
+        alt="Foto do Gabriel Cardoso"
+        class="img_gabriel"
+      />
     </main>
     <footer class="rodape">
-        <p>Desenvolvido por Gabriel Cardoso & Alura</p>
+      <p>Desenvolvido por Gabriel Cardoso & Alura</p>
     </footer>
-</body>
+    <script src="/js/script.js"></script>
+  </body>
 </html>
